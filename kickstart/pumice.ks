@@ -35,8 +35,6 @@ repo --name="rpmfusion-nonfree-release" --mirrorlist=https://mirrors.rpmfusion.o
 repo --name="elrepo" --baseurl=https://elrepo.org/linux/elrepo/el9/$basearch/
 repo --name="elrepo-extras" --baseurl=https://elrepo.org/linux/extras/el9/$basearch/
 repo --name="elrepo-kernel" --baseurl=https://elrepo.org/linux/kernel/el9/$basearch/
-dnf config-manager addrepo --from-repofile=https://download.opensuse.org/repositories/shells:zsh-users:zsh-completions/Fedora_Rawhide/shells:zsh-users:zsh-completions.repo
-dnf install zsh-completions
 
 # enable repos
 #
